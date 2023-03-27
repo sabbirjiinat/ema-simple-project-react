@@ -1,0 +1,21 @@
+.shop-container{
+    display: grid;
+    grid-template-columns:4fr 1fr;
+    margin: 0 10px;
+  
+}
+
+
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+    grid-gap: 10px;
+    margin: 20px;
+    
+}
+
+
+.order-container{
+    border: 2px solid lightseagreen;
+}
