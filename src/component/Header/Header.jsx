@@ -8,30 +8,10 @@ const Header = () => {
     <nav className="navbar">
       <img src={logo} alt="" />
       <div>
-        <NavLink
-          className={({ isActive }) => (isActive ? "active" : "")}
-          to="/"
-        >
-          Shop
-        </NavLink>
-        <NavLink
-          className={({ isActive }) => (isActive ? "active" : "")}
-          to="/Orders"
-        >
-          Orders
-        </NavLink>
-        <NavLink
-          className={({ isActive }) => (isActive ? "active" : "")}
-          to="/inventory"
-        >
-          Inventory
-        </NavLink>
-        <NavLink
-          className={({ isActive }) => (isActive ? "active" : "")}
-          to="/login"
-        >
-          Login
-        </NavLink>
+        <Link to="/">Shop</Link>
+        <Link to="/Orders">Orders</Link>
+        <Link to="/inventory">Inventory</Link>
+        <Link to="/login">Login</Link>
       </div>
     </nav>
   );
