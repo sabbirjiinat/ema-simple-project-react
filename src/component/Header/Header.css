@@ -5,7 +5,9 @@
     align-items: center;
     height: 60px;
     padding: 0 25px;
-   
+    /* position: sticky;
+    top: 0;
+    */
 }
 
 .navbar a {
